@@ -1,0 +1,57 @@
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Secrets and signing material
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Bb]uild/
+[Bb]uilds/
+TfUpgradeGradleExport/
+*.csproj
+*.sln
+*.apk
+*.aab
+
+# Keil and embedded build output
+**/Objects/
+**/Listings/
+**/Output/
+*.axf
+*.bin
+*.hex
+*.map
+*.lst
+*.lnp
+*.dep
+*.d
+*.o
+*.obj
+*.crf
+*.htm
+*.build_log.htm
+*.uvguix.*
+
+# Local logs and backups
+*.log
+*.tmp
+*.bak
+.codex_backup*/
+.codex-*/

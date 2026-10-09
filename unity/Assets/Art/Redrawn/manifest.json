@@ -1,0 +1,1217 @@
+{
+  "description": "AI redrawn Unity-ready assets, based on game sections of the supplied videos.",
+  "animals": [
+    {
+      "en": "lion",
+      "cn": "狮子",
+      "basic_poses": [
+        "portrait",
+        "idle",
+        "run_01",
+        "run_02",
+        "run_03",
+        "run_04"
+      ],
+      "action_poses": [
+        "fall_01_hit_hay_wall",
+        "fall_02_tumble",
+        "fall_03_recover",
+        "jump_01_on_lily_pad",
+        "jump_02_airborne",
+        "jump_03_land_lily_pad",
+        "ball_walk_01_balance",
+        "ball_walk_02_roll",
+        "ball_walk_03_ball_stack"
+      ]
+    },
+    {
+      "en": "elephant",
+      "cn": "大象",
+      "basic_poses": [
+        "portrait",
+        "idle",
+        "run_01",
+        "run_02",
+        "run_03",
+        "run_04"
+      ],
+      "action_poses": [
+        "fall_01_hit_hay_wall",
+        "fall_02_tumble",
+        "fall_03_recover",
+        "jump_01_on_lily_pad",
+        "jump_02_airborne",
+        "jump_03_land_lily_pad",
+        "ball_walk_01_balance",
+        "ball_walk_02_roll",
+        "ball_walk_03_ball_stack"
+      ]
+    },
+    {
+      "en": "gorilla",
+      "cn": "猩猩",
+      "basic_poses": [
+        "portrait",
+        "idle",
+        "run_01",
+        "run_02",
+        "run_03",
+        "run_04"
+      ],
+      "action_poses": [
+        "fall_01_hit_hay_wall",
+        "fall_02_tumble",
+        "fall_03_recover",
+        "jump_01_on_lily_pad",
+        "jump_02_airborne",
+        "jump_03_land_lily_pad",
+        "ball_walk_01_balance",
+        "ball_walk_02_roll",
+        "ball_walk_03_ball_stack"
+      ]
+    },
+    {
+      "en": "zebra",
+      "cn": "斑马",
+      "basic_poses": [
+        "portrait",
+        "idle",
+        "run_01",
+        "run_02",
+        "run_03",
+        "run_04"
+      ],
+      "action_poses": [
+        "fall_01_hit_hay_wall",
+        "fall_02_tumble",
+        "fall_03_recover",
+        "jump_01_on_lily_pad",
+        "jump_02_airborne",
+        "jump_03_land_lily_pad",
+        "ball_walk_01_balance",
+        "ball_walk_02_roll",
+        "ball_walk_03_ball_stack"
+      ]
+    },
+    {
+      "en": "giraffe",
+      "cn": "长颈鹿",
+      "basic_poses": [
+        "portrait",
+        "idle",
+        "run_01",
+        "run_02",
+        "run_03",
+        "run_04"
+      ],
+      "action_poses": [
+        "fall_01_hit_hay_wall",
+        "fall_02_tumble",
+        "fall_03_recover",
+        "jump_01_on_lily_pad",
+        "jump_02_airborne",
+        "jump_03_land_lily_pad",
+        "ball_walk_01_balance",
+        "ball_walk_02_roll",
+        "ball_walk_03_ball_stack"
+      ]
+    },
+    {
+      "en": "camel",
+      "cn": "骆驼",
+      "basic_poses": [
+        "portrait",
+        "idle",
+        "run_01",
+        "run_02",
+        "run_03",
+        "run_04"
+      ],
+      "action_poses": [
+        "fall_01_hit_hay_wall",
+        "fall_02_tumble",
+        "fall_03_recover",
+        "jump_01_on_lily_pad",
+        "jump_02_airborne",
+        "jump_03_land_lily_pad",
+        "ball_walk_01_balance",
+        "ball_walk_02_roll",
+        "ball_walk_03_ball_stack"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "desert",
+      "cn": "沙漠",
+      "prop": "hay_wall",
+      "action": "fall"
+    },
+    {
+      "name": "jungle",
+      "cn": "丛林",
+      "prop": "lily_pad_pool",
+      "action": "jump"
+    },
+    {
+      "name": "castle",
+      "cn": "城堡",
+      "prop": "beach_ball_stack",
+      "action": "ball_walk"
+    }
+  ],
+  "video_based_props": true,
+  "items": [
+    {
+      "type": "animal_basic",
+      "animal": "lion",
+      "pose": "portrait",
+      "file": "animals\\lion_狮子\\lion_portrait.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "lion",
+      "pose": "idle",
+      "file": "animals\\lion_狮子\\lion_idle.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "lion",
+      "pose": "run_01",
+      "file": "animals\\lion_狮子\\lion_run_01.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "lion",
+      "pose": "run_02",
+      "file": "animals\\lion_狮子\\lion_run_02.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "lion",
+      "pose": "run_03",
+      "file": "animals\\lion_狮子\\lion_run_03.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "lion",
+      "pose": "run_04",
+      "file": "animals\\lion_狮子\\lion_run_04.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "elephant",
+      "pose": "portrait",
+      "file": "animals\\elephant_大象\\elephant_portrait.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "elephant",
+      "pose": "idle",
+      "file": "animals\\elephant_大象\\elephant_idle.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "elephant",
+      "pose": "run_01",
+      "file": "animals\\elephant_大象\\elephant_run_01.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "elephant",
+      "pose": "run_02",
+      "file": "animals\\elephant_大象\\elephant_run_02.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "elephant",
+      "pose": "run_03",
+      "file": "animals\\elephant_大象\\elephant_run_03.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "elephant",
+      "pose": "run_04",
+      "file": "animals\\elephant_大象\\elephant_run_04.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "gorilla",
+      "pose": "portrait",
+      "file": "animals\\gorilla_猩猩\\gorilla_portrait.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "gorilla",
+      "pose": "idle",
+      "file": "animals\\gorilla_猩猩\\gorilla_idle.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "gorilla",
+      "pose": "run_01",
+      "file": "animals\\gorilla_猩猩\\gorilla_run_01.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "gorilla",
+      "pose": "run_02",
+      "file": "animals\\gorilla_猩猩\\gorilla_run_02.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "gorilla",
+      "pose": "run_03",
+      "file": "animals\\gorilla_猩猩\\gorilla_run_03.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "gorilla",
+      "pose": "run_04",
+      "file": "animals\\gorilla_猩猩\\gorilla_run_04.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "zebra",
+      "pose": "portrait",
+      "file": "animals\\zebra_斑马\\zebra_portrait.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "zebra",
+      "pose": "idle",
+      "file": "animals\\zebra_斑马\\zebra_idle.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "zebra",
+      "pose": "run_01",
+      "file": "animals\\zebra_斑马\\zebra_run_01.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "zebra",
+      "pose": "run_02",
+      "file": "animals\\zebra_斑马\\zebra_run_02.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "zebra",
+      "pose": "run_03",
+      "file": "animals\\zebra_斑马\\zebra_run_03.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "zebra",
+      "pose": "run_04",
+      "file": "animals\\zebra_斑马\\zebra_run_04.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "giraffe",
+      "pose": "portrait",
+      "file": "animals\\giraffe_长颈鹿\\giraffe_portrait.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "giraffe",
+      "pose": "idle",
+      "file": "animals\\giraffe_长颈鹿\\giraffe_idle.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "giraffe",
+      "pose": "run_01",
+      "file": "animals\\giraffe_长颈鹿\\giraffe_run_01.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "giraffe",
+      "pose": "run_02",
+      "file": "animals\\giraffe_长颈鹿\\giraffe_run_02.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "giraffe",
+      "pose": "run_03",
+      "file": "animals\\giraffe_长颈鹿\\giraffe_run_03.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "giraffe",
+      "pose": "run_04",
+      "file": "animals\\giraffe_长颈鹿\\giraffe_run_04.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "camel",
+      "pose": "portrait",
+      "file": "animals\\camel_骆驼\\camel_portrait.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "camel",
+      "pose": "idle",
+      "file": "animals\\camel_骆驼\\camel_idle.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "camel",
+      "pose": "run_01",
+      "file": "animals\\camel_骆驼\\camel_run_01.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "camel",
+      "pose": "run_02",
+      "file": "animals\\camel_骆驼\\camel_run_02.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "camel",
+      "pose": "run_03",
+      "file": "animals\\camel_骆驼\\camel_run_03.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_basic",
+      "animal": "camel",
+      "pose": "run_04",
+      "file": "animals\\camel_骆驼\\camel_run_04.png",
+      "size": [
+        320,
+        256
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "lion",
+      "action": "fall_01_hit_hay_wall",
+      "file": "animals\\lion_狮子\\actions\\lion_fall_01_hit_hay_wall.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "lion",
+      "action": "fall_02_tumble",
+      "file": "animals\\lion_狮子\\actions\\lion_fall_02_tumble.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "lion",
+      "action": "fall_03_recover",
+      "file": "animals\\lion_狮子\\actions\\lion_fall_03_recover.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "elephant",
+      "action": "fall_01_hit_hay_wall",
+      "file": "animals\\elephant_大象\\actions\\elephant_fall_01_hit_hay_wall.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "elephant",
+      "action": "fall_02_tumble",
+      "file": "animals\\elephant_大象\\actions\\elephant_fall_02_tumble.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "elephant",
+      "action": "fall_03_recover",
+      "file": "animals\\elephant_大象\\actions\\elephant_fall_03_recover.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "gorilla",
+      "action": "fall_01_hit_hay_wall",
+      "file": "animals\\gorilla_猩猩\\actions\\gorilla_fall_01_hit_hay_wall.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "gorilla",
+      "action": "fall_02_tumble",
+      "file": "animals\\gorilla_猩猩\\actions\\gorilla_fall_02_tumble.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "gorilla",
+      "action": "fall_03_recover",
+      "file": "animals\\gorilla_猩猩\\actions\\gorilla_fall_03_recover.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "zebra",
+      "action": "fall_01_hit_hay_wall",
+      "file": "animals\\zebra_斑马\\actions\\zebra_fall_01_hit_hay_wall.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "zebra",
+      "action": "fall_02_tumble",
+      "file": "animals\\zebra_斑马\\actions\\zebra_fall_02_tumble.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "zebra",
+      "action": "fall_03_recover",
+      "file": "animals\\zebra_斑马\\actions\\zebra_fall_03_recover.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "giraffe",
+      "action": "fall_01_hit_hay_wall",
+      "file": "animals\\giraffe_长颈鹿\\actions\\giraffe_fall_01_hit_hay_wall.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "giraffe",
+      "action": "fall_02_tumble",
+      "file": "animals\\giraffe_长颈鹿\\actions\\giraffe_fall_02_tumble.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "giraffe",
+      "action": "fall_03_recover",
+      "file": "animals\\giraffe_长颈鹿\\actions\\giraffe_fall_03_recover.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "camel",
+      "action": "fall_01_hit_hay_wall",
+      "file": "animals\\camel_骆驼\\actions\\camel_fall_01_hit_hay_wall.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "camel",
+      "action": "fall_02_tumble",
+      "file": "animals\\camel_骆驼\\actions\\camel_fall_02_tumble.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "camel",
+      "action": "fall_03_recover",
+      "file": "animals\\camel_骆驼\\actions\\camel_fall_03_recover.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "lion",
+      "action": "jump_01_on_lily_pad",
+      "file": "animals\\lion_狮子\\actions\\lion_jump_01_on_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "lion",
+      "action": "jump_02_airborne",
+      "file": "animals\\lion_狮子\\actions\\lion_jump_02_airborne.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "lion",
+      "action": "jump_03_land_lily_pad",
+      "file": "animals\\lion_狮子\\actions\\lion_jump_03_land_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "elephant",
+      "action": "jump_01_on_lily_pad",
+      "file": "animals\\elephant_大象\\actions\\elephant_jump_01_on_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "elephant",
+      "action": "jump_02_airborne",
+      "file": "animals\\elephant_大象\\actions\\elephant_jump_02_airborne.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "elephant",
+      "action": "jump_03_land_lily_pad",
+      "file": "animals\\elephant_大象\\actions\\elephant_jump_03_land_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "gorilla",
+      "action": "jump_01_on_lily_pad",
+      "file": "animals\\gorilla_猩猩\\actions\\gorilla_jump_01_on_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "gorilla",
+      "action": "jump_02_airborne",
+      "file": "animals\\gorilla_猩猩\\actions\\gorilla_jump_02_airborne.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "gorilla",
+      "action": "jump_03_land_lily_pad",
+      "file": "animals\\gorilla_猩猩\\actions\\gorilla_jump_03_land_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "zebra",
+      "action": "jump_01_on_lily_pad",
+      "file": "animals\\zebra_斑马\\actions\\zebra_jump_01_on_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "zebra",
+      "action": "jump_02_airborne",
+      "file": "animals\\zebra_斑马\\actions\\zebra_jump_02_airborne.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "zebra",
+      "action": "jump_03_land_lily_pad",
+      "file": "animals\\zebra_斑马\\actions\\zebra_jump_03_land_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "giraffe",
+      "action": "jump_01_on_lily_pad",
+      "file": "animals\\giraffe_长颈鹿\\actions\\giraffe_jump_01_on_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "giraffe",
+      "action": "jump_02_airborne",
+      "file": "animals\\giraffe_长颈鹿\\actions\\giraffe_jump_02_airborne.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "giraffe",
+      "action": "jump_03_land_lily_pad",
+      "file": "animals\\giraffe_长颈鹿\\actions\\giraffe_jump_03_land_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "camel",
+      "action": "jump_01_on_lily_pad",
+      "file": "animals\\camel_骆驼\\actions\\camel_jump_01_on_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "camel",
+      "action": "jump_02_airborne",
+      "file": "animals\\camel_骆驼\\actions\\camel_jump_02_airborne.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "camel",
+      "action": "jump_03_land_lily_pad",
+      "file": "animals\\camel_骆驼\\actions\\camel_jump_03_land_lily_pad.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "lion",
+      "action": "ball_walk_01_balance",
+      "file": "animals\\lion_狮子\\actions\\lion_ball_walk_01_balance.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "lion",
+      "action": "ball_walk_02_roll",
+      "file": "animals\\lion_狮子\\actions\\lion_ball_walk_02_roll.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "lion",
+      "action": "ball_walk_03_ball_stack",
+      "file": "animals\\lion_狮子\\actions\\lion_ball_walk_03_ball_stack.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "elephant",
+      "action": "ball_walk_01_balance",
+      "file": "animals\\elephant_大象\\actions\\elephant_ball_walk_01_balance.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "elephant",
+      "action": "ball_walk_02_roll",
+      "file": "animals\\elephant_大象\\actions\\elephant_ball_walk_02_roll.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "elephant",
+      "action": "ball_walk_03_ball_stack",
+      "file": "animals\\elephant_大象\\actions\\elephant_ball_walk_03_ball_stack.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "gorilla",
+      "action": "ball_walk_01_balance",
+      "file": "animals\\gorilla_猩猩\\actions\\gorilla_ball_walk_01_balance.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "gorilla",
+      "action": "ball_walk_02_roll",
+      "file": "animals\\gorilla_猩猩\\actions\\gorilla_ball_walk_02_roll.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "gorilla",
+      "action": "ball_walk_03_ball_stack",
+      "file": "animals\\gorilla_猩猩\\actions\\gorilla_ball_walk_03_ball_stack.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "zebra",
+      "action": "ball_walk_01_balance",
+      "file": "animals\\zebra_斑马\\actions\\zebra_ball_walk_01_balance.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "zebra",
+      "action": "ball_walk_02_roll",
+      "file": "animals\\zebra_斑马\\actions\\zebra_ball_walk_02_roll.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "zebra",
+      "action": "ball_walk_03_ball_stack",
+      "file": "animals\\zebra_斑马\\actions\\zebra_ball_walk_03_ball_stack.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "giraffe",
+      "action": "ball_walk_01_balance",
+      "file": "animals\\giraffe_长颈鹿\\actions\\giraffe_ball_walk_01_balance.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "giraffe",
+      "action": "ball_walk_02_roll",
+      "file": "animals\\giraffe_长颈鹿\\actions\\giraffe_ball_walk_02_roll.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "giraffe",
+      "action": "ball_walk_03_ball_stack",
+      "file": "animals\\giraffe_长颈鹿\\actions\\giraffe_ball_walk_03_ball_stack.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "camel",
+      "action": "ball_walk_01_balance",
+      "file": "animals\\camel_骆驼\\actions\\camel_ball_walk_01_balance.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "camel",
+      "action": "ball_walk_02_roll",
+      "file": "animals\\camel_骆驼\\actions\\camel_ball_walk_02_roll.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "animal_action",
+      "animal": "camel",
+      "action": "ball_walk_03_ball_stack",
+      "file": "animals\\camel_骆驼\\actions\\camel_ball_walk_03_ball_stack.png",
+      "size": [
+        448,
+        320
+      ]
+    },
+    {
+      "type": "scene_background",
+      "scene": "desert",
+      "scene_cn": "沙漠",
+      "paired_prop": "hay_wall",
+      "file": "scenes\\desert_沙漠\\desert_background.png",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "type": "scene_background",
+      "scene": "jungle",
+      "scene_cn": "丛林",
+      "paired_prop": "lily_pad_pool",
+      "file": "scenes\\jungle_丛林\\jungle_background.png",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "type": "scene_background",
+      "scene": "castle",
+      "scene_cn": "城堡",
+      "paired_prop": "beach_ball_stack",
+      "file": "scenes\\castle_城堡\\castle_background.png",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "type": "prop",
+      "scene": "desert",
+      "name": "hay_wall",
+      "name_cn": "视频版竖向草包墙",
+      "file": "props\\desert\\hay_wall.png",
+      "size": [
+        360,
+        720
+      ]
+    },
+    {
+      "type": "prop",
+      "scene": "desert",
+      "name": "hay_fragments",
+      "name_cn": "摔倒碎草片",
+      "file": "props\\desert\\hay_fragments.png",
+      "size": [
+        480,
+        256
+      ]
+    },
+    {
+      "type": "prop",
+      "scene": "jungle",
+      "name": "lily_pad_pool",
+      "name_cn": "视频版两列荷叶水池",
+      "file": "props\\jungle\\lily_pad_pool.png",
+      "size": [
+        640,
+        640
+      ]
+    },
+    {
+      "type": "prop",
+      "scene": "castle",
+      "name": "beach_ball_stack",
+      "name_cn": "视频版彩色球柱",
+      "file": "props\\castle\\beach_ball_stack.png",
+      "size": [
+        300,
+        900
+      ]
+    },
+    {
+      "type": "prop",
+      "scene": "castle",
+      "name": "beach_ball_single",
+      "name_cn": "单个彩色球",
+      "file": "props\\castle\\beach_ball_single.png",
+      "size": [
+        320,
+        320
+      ]
+    },
+    {
+      "type": "ui",
+      "name": "top_banner_blue",
+      "file": "ui\\top_banner_blue.png",
+      "size": [
+        911,
+        106
+      ]
+    },
+    {
+      "type": "ui",
+      "name": "top_banner_pink",
+      "file": "ui\\top_banner_pink.png",
+      "size": [
+        726,
+        98
+      ]
+    },
+    {
+      "type": "ui",
+      "name": "left_icon_panel",
+      "file": "ui\\left_icon_panel.png",
+      "size": [
+        388,
+        647
+      ]
+    },
+    {
+      "type": "ui",
+      "name": "finish_line_rank_numbers",
+      "file": "ui\\finish_line_rank_numbers.png",
+      "size": [
+        220,
+        587
+      ]
+    },
+    {
+      "type": "ui",
+      "name": "single_avatar_frame",
+      "file": "ui\\single_avatar_frame.png",
+      "size": [
+        427,
+        364
+      ]
+    },
+    {
+      "type": "ui",
+      "name": "small_number_plaque",
+      "file": "ui\\small_number_plaque.png",
+      "size": [
+        211,
+        120
+      ]
+    },
+    {
+      "type": "ui",
+      "name": "bottom_avatar_bar",
+      "file": "ui\\bottom_avatar_bar.png",
+      "size": [
+        1211,
+        240
+      ]
+    }
+  ]
+}
